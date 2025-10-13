@@ -22,4 +22,7 @@ collections:
     output: true
   publications:
     output: true
+  courses:
+    output: true
+    permalink: /courses/:name/
 permalink: /:year/:month/:day/:title/
