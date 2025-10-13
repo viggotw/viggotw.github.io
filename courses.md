@@ -29,10 +29,6 @@ title: Courses and Lectures
 					{% if has_meta %} · {% endif %}{{ course.duration }}
 					{% assign has_meta = true %}
 				{% endif %}
-				{% if course.language %}
-					{% if has_meta %} · {% endif %}{{ course.language | upcase }}
-					{% assign has_meta = true %}
-				{% endif %}
 				{% if course.audience %}
 					{% assign audience_list = course.audience | arrayify %}
 					{% if audience_list != empty %}
@@ -41,16 +37,6 @@ title: Courses and Lectures
 					{% endif %}
 				{% endif %}
 			</small>
-			{% if course.learning_objectives %}
-				{% assign objectives = course.learning_objectives | arrayify %}
-				{% if objectives != empty %}
-					<ul>
-						{% for objective in objectives %}
-							<li>{{ objective }}</li>
-						{% endfor %}
-					</ul>
-				{% endif %}
-			{% endif %}
 		</section>
 	{% endfor %}
 </div>
