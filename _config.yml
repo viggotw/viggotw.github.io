@@ -1,0 +1,13 @@
+title: "Teknobabbel"
+description: "Viggo Tellefsen Wivestad"
+theme: minima
+
+# Show these pages in the top navigation
+header_pages:
+  - index.md
+  - writing.md
+  - courses.md
+  - contact.md
+
+# Keep clean URLs
+permalink: /:categories/:title/
