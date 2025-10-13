@@ -2,7 +2,7 @@ title: "Teknobabbel"
 description: "Viggo Tellefsen Wivestad"
 theme: minima
 
-# Show these pages in the top navigation
+# Pages in the top navigation
 header_pages:
   - index.md
   - writing.md
@@ -11,3 +11,9 @@ header_pages:
 
 # Keep clean URLs
 permalink: /:categories/:title/
+
+# Build settings
+collections:
+  links:
+    output: false   # only render links in the Writing list
+permalink: /:year/:month/:day/:title/
