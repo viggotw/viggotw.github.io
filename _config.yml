@@ -9,6 +9,7 @@ baseurl: ""
 header_pages:
   - index.md
   - writing_popular.md
+  - writing_academic.md
   - courses.md
   - contact.md
 
@@ -18,5 +19,7 @@ permalink: /:categories/:title/
 # Build settings
 collections:
   links:
+    output: true
+  publications:
     output: true
 permalink: /:year/:month/:day/:title/
