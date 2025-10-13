@@ -60,5 +60,5 @@ title: "Academic Writing"
 	{% endfor %}
 </ul>
 {% else %}
-<p>No publications added yet. Check back soon.</p>
+<p>No publications added yet. In the meantime, check out my profile on <a href="https://www.researchgate.net/profile/Viggo-Wivestad" target="_blank" rel="noopener">ResearchGate</a>.</p>
 {% endif %}
