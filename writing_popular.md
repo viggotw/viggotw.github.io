@@ -3,8 +3,6 @@ layout: page
 title: "Popular Writing"
 ---
 
-<h2>Popular Writing</h2>
-
 <ul>
   {% assign all_items = site.posts | concat: site.links %}
   {% assign sorted_items = all_items | sort: 'date' | reverse %}
