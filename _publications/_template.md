@@ -1,6 +1,7 @@
 ---
 title: "Example paper title"
 date: YYYY-MM-DD
+layout: post
 authors:
   - Author One
   - Author Two

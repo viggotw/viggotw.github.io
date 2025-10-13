@@ -66,6 +66,52 @@ tags: [op-ed]
 - To preview locally, install Ruby + Bundler and run bundle exec jekyll serve.
 - Custom domain is configured through the repository settings (teknobabbel.no).
 
+## Local development (WSL / Windows)
+
+Recommended: do all Ruby/Jekyll work inside Linux (WSL) – not on the Windows filesystem – for speed and fewer path issues.
+
+1. Install WSL (Ubuntu) if you haven't:
+   - In Windows PowerShell (admin): `wsl --install -d Ubuntu` then reboot if prompted.
+2. Open Ubuntu (WSL) terminal.
+3. Clone (or move) the repo into your Linux home directory (avoid `/mnt/c/...` for performance):
+   ```bash
+   cd ~
+   git clone https://github.com/viggotw/viggotw.github.io.git
+   cd viggotw.github.io
+   ```
+4. Install dependencies (minimal approach):
+   ```bash
+   sudo apt update
+   sudo apt install -y build-essential ruby-full git
+   gem install bundler
+   ```
+   (Optional) For finer Ruby version control use rbenv/asdf instead of `ruby-full`.
+5. Install gems:
+   ```bash
+   bundle config set path vendor/bundle   # keeps gems inside the repo (optional)
+   bundle install
+   ```
+6. Serve the site locally:
+   ```bash
+   bundle exec jekyll serve --livereload
+   ```
+   Then open http://localhost:4000 in a browser. If you want to test from outside WSL (rare), use `--host 0.0.0.0`.
+7. Editing workflow:
+   - Add / edit Markdown files in `_posts/`, `_links/`, etc.
+   - Images into `assets/images/<slug>/` (create folder if needed).
+   - Site auto-regenerates; refresh the browser.
+8. Clean & rebuild if things look stale:
+   ```bash
+   bundle exec jekyll clean
+   bundle exec jekyll serve
+   ```
+9. Update dependencies (infrequent): update versions in `Gemfile` then run `bundle update`.
+
+Troubleshooting:
+ - Missing gem error → run `bundle install` again.
+ - Encoding/path issues on Windows → ensure you're working inside the WSL (Linux) path, not `/mnt/c`.
+ - Port already in use → change with `--port 4001`.
+
 ## License
 
 Personal website content © Viggo Tellefsen Wivestad.

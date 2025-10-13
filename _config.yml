@@ -5,6 +5,17 @@ timezone: Europe/Oslo
 url: "https://teknobabbel.no"
 baseurl: ""
 
+# Markdown engine
+markdown: kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  footnote_backlink: "&#8617;"
+
 # Pages in the top navigation
 header_pages:
   - index.md
@@ -12,9 +23,6 @@ header_pages:
   - writing_academic.md
   - courses.md
   - contact.md
-
-# Keep clean URLs
-permalink: /:categories/:title/
 
 # Build settings
 collections:
@@ -25,4 +33,5 @@ collections:
   courses:
     output: true
     permalink: /courses/:name/
+
 permalink: /:year/:month/:day/:title/

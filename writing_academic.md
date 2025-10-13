@@ -4,8 +4,7 @@ title: "Academic Writing"
 ---
 
 <p>
-	Peer-reviewed articles, working papers, and other scholarly pieces. New items are added automatically from the
-	<code>_publications</code> collection.
+	Peer-reviewed articles, working papers, and other scholarly pieces.
 </p>
 
 {% assign publications = site.publications | sort: 'date' | reverse %}
@@ -61,5 +60,5 @@ title: "Academic Writing"
 	{% endfor %}
 </ul>
 {% else %}
-<p>No publications yet. Check back soon.</p>
+<p>No publications added yet. Check back soon.</p>
 {% endif %}
