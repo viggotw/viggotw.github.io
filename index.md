@@ -5,7 +5,7 @@ title: Home
 
 # Teknobabbel
 
-**Teknobabbel** er hjemmesiden til forsker og vitenskapsformidler, **Viggo Tellefsen Wivestad** og mitt foretak *Wivestad Teknobabbel*.
+**Teknobabbel** er hjemmesiden til forsker og vitenskapsformidler **Viggo Tellefsen Wivestad** og mitt foretak *Wivestad Teknobabbel*.
 Her deler jeg forskningsarbeid, prosjekter og refleksjoner knyttet til forskning, kunstig intelligens, data science og programvareutvikling.  
 Nettsiden fungerer også som en oversikt over kurs, foredrag og kronikker jeg tilbyr og har skrevet.
 
