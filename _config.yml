@@ -5,7 +5,7 @@ theme: minima
 # Pages in the top navigation
 header_pages:
   - index.md
-  - writing.md
+  - writing_popular.md
   - courses.md
   - contact.md
 
