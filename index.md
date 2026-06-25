@@ -25,7 +25,7 @@ Jeg er også en av arrangørene bak **[Trondheim Kreativ AI (TKAI)](https://www.
 
 ## Forskning, formidling og samfunnsdebatt
 
-Jeg engasjerer meg både som **forsker og samfunnsdebattant**, med flere publiserte kronikker i blant annet **NRK Ytring**, **Dagens Næringsliv** og andre kanaler. Jeg har også vært gjest to ganger i **NRK P2 Ekko**, der programmet omtalte meg som **"KI-ekspert"**.
+Jeg engasjerer meg både som **forsker og samfunnsdebattant**, med flere publiserte kronikker i blant annet **NRK Ytring**, **Dagens Næringsliv** og andre kanaler. Jeg har også vært gjest to ganger i **NRK P2 Ekko**, begge ganger under den nokså romslige merkelappen **"KI-ekspert"**.
 Gjennom arbeidet mitt ønsker jeg å belyse hvordan teknologi påvirker samfunn, etikk og tillit, fra skummel deepfake-svindel og KI som former virkelighetsoppfatningen, til hvordan KI kan brukes kreativt og ansvarlig i arbeidslivet.
 
 Jeg brenner for å formidle komplekse tema på en måte som er forståelig og relevant, enten det er i et foredrag, et kurs eller en avisartikkel.
