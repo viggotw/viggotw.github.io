@@ -23,6 +23,7 @@ header_pages:
   - writing_popular.md
   - writing_academic.md
   - courses.md
+  - achievements.md
   - contact.md
 
 # Build settings
@@ -34,5 +35,7 @@ collections:
   courses:
     output: true
     permalink: /courses/:name/
+  achievements:
+    output: false
 
 permalink: /:year/:month/:day/:title/

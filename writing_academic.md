@@ -7,6 +7,13 @@ title: "Academic Writing"
 	Peer-reviewed articles, working papers, and other scholarly pieces.
 </p>
 
+<p>
+	<small>
+		Last updated: July 2026. For the most up-to-date list, see my
+		<a href="https://scholar.google.com/citations?user=7X9kmbgAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar profile</a>.
+	</small>
+</p>
+
 {% assign publications = site.publications | sort: 'date' | reverse %}
 {% if publications.size > 0 %}
 <ul style="list-style:none; padding-left:0;">
@@ -32,7 +39,7 @@ title: "Academic Writing"
 					{% assign has_meta = true %}
 				{% endif %}
 				{% if pub.date %}
-					{% if has_meta %} · {% endif %}{{ pub.date | date: "%Y-%m-%d" }}
+					{% if has_meta %} · {% endif %}{{ pub.date | date: "%B %Y" }}
 					{% assign has_meta = true %}
 				{% endif %}
 			</small>
