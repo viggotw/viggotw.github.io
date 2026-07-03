@@ -13,13 +13,15 @@ Nettsiden fungerer også som en oversikt over kurs, foredrag og kronikker jeg ti
 
 ## Om meg
 
-<img src="assets/images/Viggo%20Wivestad%20profilbilde.jpg" alt="Viggo Wivestad profilbilde" width="150" style="border-radius:8px;" />
+<img src="assets/images/Viggo-is-a-human-and-can-make-mistakes.png" alt="Viggo Wivestad profilbilde" width="180" style="float:left; margin:0 1.5em 1em 0; border-radius:8px;" />
 
 Jeg er **forsker og data scientist ved SINTEF Digital**, der jeg jobber i skjæringspunktet mellom "mennesker" og "kunstig intelligens".  
 Jeg har en mastergrad i **Kybernetikk og robotikk** fra NTNU, og flere års erfaring fra industri og forskning, hvor jeg kombinerer kvalitative og kvantitative metoder for å forstå og forbedre teknologiske prosesser.
 
 Ved siden av forskningen underviser jeg **SINTEFSkolens kurs i ChatGPT og kunstig intelligens**, og deltar aktivt i **SINTEFs MakerSpace i Trondheim**.  
 Jeg er også en av arrangørene bak **[Trondheim Kreativ AI (TKAI)](https://www.meetup.com/trondheim-kreativ-ai/)**, et åpent nettverk for alle som er nysgjerrige på kreativ og ansvarlig bruk av kunstig intelligens.
+
+<div style="clear:both;"></div>
 
 ---
 
