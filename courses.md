@@ -8,6 +8,8 @@ title: Courses and Lectures
 	of these sessions for your team or event.
 </p>
 
+<h2>Courses</h2>
+
 {% assign course_entries = site.courses | sort: 'order' %}
 {% if course_entries.size > 0 %}
 <div class="course-list">
@@ -48,3 +50,28 @@ title: Courses and Lectures
 	Interested in one of these courses or a bespoke session? <a href="{{ "/contact" | relative_url }}">Get in touch</a>
 	to discuss formats, availability, and pricing.
 </p>
+
+{% assign lecture_entries = site.lectures | sort: 'date' | reverse %}
+{% if lecture_entries.size > 0 %}
+<h2>Lectures and Guest Teaching</h2>
+<ul style="list-style:none; padding-left:0;">
+	{% for item in lecture_entries %}
+		<li style="margin-bottom:1.2em;">
+			<strong>{{ item.title }}</strong>
+			<br>
+			{% assign has_meta = false %}
+			<small>
+				{% if item.venue %}
+					<em>{{ item.venue }}</em>
+					{% assign has_meta = true %}
+				{% endif %}
+				{% if item.display_date %}
+					{% if has_meta %} · {% endif %}{{ item.display_date }}
+				{% elsif item.date %}
+					{% if has_meta %} · {% endif %}{{ item.date | date: "%B %Y" }}
+				{% endif %}
+			</small>
+		</li>
+	{% endfor %}
+</ul>
+{% endif %}

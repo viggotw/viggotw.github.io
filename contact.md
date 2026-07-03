@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kontakt og lenker
+title: Contact
 ---
 
 - 📨 <a href="mailto:viggo.wivestad@sintef.no">E-post</a><br>

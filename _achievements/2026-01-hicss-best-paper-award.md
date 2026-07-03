@@ -1,7 +1,6 @@
 ---
 title: "Best Paper Award, Software Technology Track – HICSS-59 (2026)"
 date: 2026-01-01
-category: award
 venue: "Hawaii International Conference on System Sciences"
 links:
   - label: "Read the paper"
